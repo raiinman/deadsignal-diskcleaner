@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-system-drive"
+description = "Enables the system_drive command without any pre-configured scope."
+commands.allow = ["system_drive"]
+
+[[permission]]
+identifier = "deny-system-drive"
+description = "Denies the system_drive command without any pre-configured scope."
+commands.deny = ["system_drive"]

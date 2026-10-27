@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-clean"
+description = "Enables the clean command without any pre-configured scope."
+commands.allow = ["clean"]
+
+[[permission]]
+identifier = "deny-clean"
+description = "Denies the clean command without any pre-configured scope."
+commands.deny = ["clean"]

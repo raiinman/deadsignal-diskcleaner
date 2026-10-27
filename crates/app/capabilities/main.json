@@ -1,0 +1,19 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "The only window. Core defaults plus this app's own commands. The folder picker runs from Rust, so the webview gets no dialog, shell, fs, opener or http permissions.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "allow-system-drive",
+    "allow-list-drives",
+    "allow-scan-dir",
+    "allow-cancel-scan",
+    "allow-get-plan",
+    "allow-clean",
+    "allow-purge-recycled",
+    "allow-get-config",
+    "allow-save-config",
+    "allow-pick-folder"
+  ]
+}

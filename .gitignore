@@ -1,0 +1,4 @@
+target/
+node_modules/
+/crates/app/gen/
+crates/app/screenshots/

@@ -1,0 +1,7 @@
+[workspace]
+members = ["crates/core", "crates/cli", "crates/app"]
+# The GUI needs WebView2 (Windows) or webkit2gtk (Linux) to build, so plain
+# `cargo build` / `cargo test` at the root only cover the engine and CLI.
+# Build the GUI with `cargo tauri build` or `cargo build -p diskcleaner-app`.
+default-members = ["crates/core", "crates/cli"]
+resolver = "2"

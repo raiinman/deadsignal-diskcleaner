@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-purge-recycled"
+description = "Enables the purge_recycled command without any pre-configured scope."
+commands.allow = ["purge_recycled"]
+
+[[permission]]
+identifier = "deny-purge-recycled"
+description = "Denies the purge_recycled command without any pre-configured scope."
+commands.deny = ["purge_recycled"]

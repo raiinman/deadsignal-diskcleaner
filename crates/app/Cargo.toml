@@ -1,0 +1,21 @@
+[package]
+name = "diskcleaner-app"
+version = "0.2.0"
+edition = "2024"
+description = "Disk Cleaner desktop GUI (Tauri v2) on top of cleaner-core"
+publish = false
+authors = ["Dead Signal Interactive"]
+
+[[bin]]
+name = "diskcleaner-app"
+path = "src/main.rs"
+
+[dependencies]
+cleaner-core = { version = "0.1.0", path = "../core" }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+tauri = "2.12.5"
+tauri-plugin-dialog = "2.8.3"
+
+[build-dependencies]
+tauri-build = "2.7.4"
